@@ -1,0 +1,28 @@
+main {
+    display: flex;
+}
+#paragrafo {
+    font-size: 25px;
+}
+body {
+    margin: 0;
+    top: 0;
+    padding: 0;
+    background-color: #02073f;
+}
+h1 {
+    color: blue;
+}
+p {
+    color: white;
+}
+#inicio {
+    background-color: rgb(23, 23, 161);
+    padding: 15px;
+    border-radius: 20px;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    color: white;
+    text-decoration: none;
+}

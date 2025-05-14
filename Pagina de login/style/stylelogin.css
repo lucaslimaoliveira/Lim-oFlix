@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    height: 629px;
+    background: linear-gradient(to bottom left, #66ccff, #0033cc);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+input {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 0 20px 20px 0;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 0px;
+    width: 200px;
+}
+form {
+    margin-top: 170px;
+}
+.input {
+    background-color: white;
+    width: 30px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 20px 0 0 20px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.botoes {
+    display: flex;
+    margin-left: 70px;
+}
+#botao {
+    background-color: blue;
+    color: white;
+    padding: 10px 107.5px 10px 107.5px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 70px;
+    position: absolute;
+    top: 320px;
+    border: 2px solid black;
+}
+input:focus {
+    outline: none;
+}
+#imagemlogin {
+    border-radius: 30px 0 0 30px;
+}
+#login {
+    display: flex;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+#entrar {
+    width: 400px; 
+    position: relative;
+    border-radius: 0 30px 30px 0;
+    background-color: white;
+}
+#h11 {
+    position: absolute;
+    top: 60px;
+    font-size: 50px;
+    left: 125px;
+    font-family: sans-serif;
+}
+#caixa {
+    margin-left: 75px;
+    margin-top: 10px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid black;
+}
+#check[type="checkbox"] {
+    display: none;
+}
+#check:checked + #caixa {
+    background-image: url(../imagens/certinho.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#lembrarsenha {
+    display: flex;
+    p {
+        margin-left: 5px;
+        margin-top: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+}
+#bemvindo {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    top: 250px;
+    left: 350px;
+}
+#bemtexto {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 310px;
+    left: 350px;
+    color: white;
+}
+#linkfinal {
+    position: absolute;
+    top: 370px;
+    left: 115px;
+}
+#azul {
+    color: blue;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+#perfil {
+    position: absolute;
+    top: 187px;
+    left: 80px;
+}
+#cadeado {
+    position: absolute;
+    top: 242px;
+    left: 70px;
+}

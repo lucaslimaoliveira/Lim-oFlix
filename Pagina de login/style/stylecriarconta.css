@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    top: 0;
+    padding: 0;
+}
+#tudo {
+    background: linear-gradient(to bottom left, #66ccff, #0033cc);
+    width: 1516px;
+    height: 709px;
+    padding: 10px;
+}
+#criarconta {
+    top: 28px;
+    position: relative;
+    border-radius: 20px;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+#criar {
+    position: absolute;
+    top: 55px;
+    left: 175px;
+    color: blue;
+    font-size: 50px;
+}
+input {
+    height: 50px;
+    width: 300px;
+    border: 2px solid black;
+    border-left: 0px;
+    border-radius: 0 10px 10px 0;
+}
+input:focus {
+    outline: none;
+}
+.input {
+    display: flex;
+    margin-top: 20px;
+}
+.caixalateral {
+    border-radius: 10px 0  0 10px;
+    border: 2px solid black;
+    border-right: 0px;
+    width: 40px;
+    height: 52px;
+    background-color: white;
+}
+form {
+    position: absolute;
+    top: 180px;
+    left: 130px;
+}
+#botao {
+    color: white;
+    position: absolute;
+    left: 0px;
+    border-radius: 10px;
+    background-color: blue;
+    border: 2px solid black;
+    padding: 18px 130px 18px 130px;
+    text-decoration: none;
+    top: 270px;
+}
