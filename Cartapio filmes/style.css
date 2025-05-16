@@ -139,9 +139,12 @@ aside {
     }
 }
 .filmeslados:hover {
-    background-color: rgb(9, 59, 59);
+    background-color: rgb(16, 99, 99);
     padding: 15px;
     border-radius: 20px;
+    img {
+        box-shadow: 5px 5px 10px white;
+    }
 }
 .link {
     text-decoration: none;

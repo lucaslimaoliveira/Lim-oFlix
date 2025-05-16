@@ -1,8 +1,11 @@
 main {
     display: flex;
 }
-#paragrafo {
+.paragrafo {
     font-size: 25px;
+    text-align: justify;
+    width: 850px;
+    margin-left: 10px;
 }
 body {
     margin: 0;
