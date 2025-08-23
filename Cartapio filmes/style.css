@@ -1,6 +1,6 @@
 table {
     border-collapse: collapse;
-    background-color: #0f1c72;
+    background-color: #16E094;
     border: 2px black solid;
     width: 92%;
     margin: 0 auto;
@@ -9,7 +9,7 @@ table {
     margin-left: 90px;
 }
 body {
-    background-color: #02073f;
+    background-color: #2e3323;
     margin: 0;
     top: 0;
     padding: 0;
@@ -20,17 +20,10 @@ body {
     width: 140px;
     margin: 7px 0 7px 7px;
     box-shadow: 5px 5px 10px;
+    transition: transform 1s ease;
 }
 .imagemFilme:hover {
-    animation: zoom 2.5s forwards;
-}
-@keyframes zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.5);
-    }
+    transform: scale(1.1);
 }
 .selecao {
     display: flex;
@@ -53,13 +46,13 @@ th {
 }
 #principal {
     height: 100px;
-    color: #020419;
+    color: white;
     font-size: 50px;
     font-weight: bold;
     font-style: italic;
 }
 header {
-    background-color: #0f1c72;
+    background-color: #16e0d9;
     padding: 10px;
     margin-bottom: 50px;
     text-align: center;
@@ -73,7 +66,7 @@ header {
     margin: 0 auto;
     justify-content: space-around;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
+    color: black;
     position: absolute;
     left: 5px;
 }
@@ -91,7 +84,7 @@ footer {
     margin-top: 60px;
 }
 .textofinal {
-    background-color: #102086;
+    background-color: #16E094;
     padding: 10px 50px 10px 50px;
     border: 3px solid black;
     border-radius: 10px;
@@ -103,7 +96,7 @@ form {
     margin-top: -15px;
 }
 #direitos {
-    color: #0727F5;
+    color: #25fa11;
 }
 button,input {
     border-radius: 10px;
@@ -112,14 +105,19 @@ a {
     color: #0727F5;
 }
 aside {
-    background-color: #0f1c72;
+    background-color: #16E094;
     height: 950px;
     top: 172px;
     position: absolute;
     width: 550px;
     border: solid 2px black;
     display: flex;
-    margin-left: -491px;
+    transform: translateX(-491px);
+    transition: transform 1s ease;
+}
+aside:hover {
+    transform: translateX(0);
+    transition: 1s ease;
 }
 #filmes {
     margin-top: 350px;
@@ -139,7 +137,7 @@ aside {
     }
 }
 .filmeslados:hover {
-    background-color: rgb(16, 99, 99);
+    background-color: #0fec97;
     padding: 15px;
     border-radius: 20px;
     img {
@@ -149,10 +147,6 @@ aside {
 .link {
     text-decoration: none;
     color: black;
-}
-aside:hover {
-    margin: 0px;
-    animation: animacaoindo 1s forwards;
 }
 #hr {
     background-color: black;
@@ -164,7 +158,7 @@ aside:hover {
     to {margin-left: 0px;}
 }
 .saibamais {
-    background-color: rgb(16, 32, 199);
+    background-color: #16e0d9;
     padding: 10px;
     border-radius: 10px;
     color: white;
@@ -190,12 +184,12 @@ aside:hover {
     right: 140px;
     top: 60px;
     padding: 10px;
-    background-color: #1d279a;
+    background-color: #16E094;
     border-radius: 10px;
     box-shadow: 5px 5px 10px black;
 }
 #sobre {
-    background-color: #1d279a;
+    background-color: #16E094;
     position: absolute;
     right: 20px;
     padding: 10px;
@@ -205,10 +199,10 @@ aside:hover {
     box-shadow: 5px 5px 10px black;
 }
 #sobre:hover > a {
-    color: yellow;
+    color: rgb(224, 214, 214);
 }
 #conta:hover > a {
-    color: yellow;
+    color: rgb(224, 214, 214);
 }
 a {
     text-decoration: none;

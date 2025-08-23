@@ -4,7 +4,7 @@ body {
     padding: 0;
 }
 #tudo {
-    background: linear-gradient(to bottom left, #66ccff, #0033cc);
+    background: linear-gradient(135deg, #1c1f15 0%, #2e3323 50%, #4e5643 100%);
     width: 1516px;
     height: 709px;
     padding: 10px;
@@ -23,7 +23,7 @@ body {
     position: absolute;
     top: 55px;
     left: 175px;
-    color: blue;
+    color: #25fa11;
     font-size: 50px;
 }
 input {
@@ -58,7 +58,7 @@ form {
     position: absolute;
     left: 0px;
     border-radius: 10px;
-    background-color: blue;
+    background-color: #24E016;
     border: 2px solid black;
     padding: 18px 130px 18px 130px;
     text-decoration: none;

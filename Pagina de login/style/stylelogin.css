@@ -4,7 +4,7 @@ body {
     top: 0;
     width: 100%;
     height: 629px;
-    background: linear-gradient(to bottom left, #66ccff, #0033cc);
+    background: linear-gradient(135deg, #1c1f15 0%, #2e3323 50%, #4e5643 100%);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@ form {
     margin-left: 70px;
 }
 #botao {
-    background-color: blue;
+    background-color: #24E016;
     color: white;
     padding: 10px 107.5px 10px 107.5px;
     border-radius: 20px;

@@ -12,7 +12,7 @@ body {
     margin: 0;
     top: 0;
     padding: 0;
-    background-color: #02073f;
+    background-color: #2e3323;
     animation-name: entrada;
     animation-duration: 1s;
 }
@@ -38,6 +38,10 @@ span {
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
 }
+#divinfo {
+    overflow-y: auto;
+    height: 280px;
+}
 #ava {
     font-size: 18px;
     position: relative;
@@ -46,7 +50,7 @@ span {
 }
 #texto {
     height: 370px;
-    background-color: #0f1c72;
+    background-color: #24E016;
     width: 25%;
     padding: 15px;
     border-radius: 10px;
@@ -58,7 +62,7 @@ span {
     margin-left: 110px;
 }
 header {
-    background-color: #0f1c72;
+    background-color: #25fa11;
     padding: 10px;
     text-align: center;
     font-weight: bold;
@@ -75,7 +79,7 @@ nav {
     font-size: 20px;
 }
 footer {
-    background-color: #0f1c72;
+    background-color: #25fa11;
     position: absolute;
     width: 98.7%;
     bottom: 0;
@@ -86,13 +90,13 @@ footer {
 }
 .link {
     text-decoration: none;
-    background-color: rgb(10, 10, 60);
+    background-color: #16e0d9;
     color: white;
     padding: 10px;
     border-radius: 10px;
 }
 .link:hover {
-    background-color: rgb(20, 139, 139);
+    background-color: #16E094;
 }
 @keyframes entrada {
     from {
@@ -124,7 +128,6 @@ footer {
     margin-left: -90px;
     position: absolute;
     animation: anda 10s,balanco 3s infinite;
-  
 }
 @keyframes anda {
     from {
@@ -174,4 +177,3 @@ footer {
         margin-top: 10px;
     }
 }
-  
