@@ -23,7 +23,7 @@ body {
     position: absolute;
     top: 55px;
     left: 175px;
-    color: #25fa11;
+    color: #16e094;
     font-size: 50px;
 }
 input {
@@ -58,7 +58,7 @@ form {
     position: absolute;
     left: 0px;
     border-radius: 10px;
-    background-color: #24E016;
+    background-color: #16e094;
     border: 2px solid black;
     padding: 18px 130px 18px 130px;
     text-decoration: none;
