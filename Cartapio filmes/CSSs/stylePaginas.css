@@ -50,7 +50,7 @@ span {
 }
 #texto {
     height: 370px;
-    background-color: #16e0d9;
+    background-color: #16e094;
     width: 25%;
     padding: 15px;
     border-radius: 10px;
@@ -135,7 +135,7 @@ footer {
         margin-left: 0px;
     }
     to {
-        margin-left: 1440px;
+        margin-left: 1540px;
     }
 }
 @keyframes balanco {

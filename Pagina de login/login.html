@@ -19,11 +19,11 @@
                     <div class="botoes">
                         <div
                         class="input"><img width="25px" id="perfil" src="imagens/icone de perfil.png" alt=""></div>
-                        <input type="text" placeholder="Usuario ou email">
+                        <input id="usuario" type="text" placeholder="Usuario ou email">
                     </div>
                     <div class="botoes">
                         <div class="input"><img id="cadeado" width="40px" src="imagens/icone de cadeado.png" alt=""></div>
-                        <input type="password" placeholder="Senha">
+                        <input id="senha" type="password" placeholder="Senha">
                     </div>
                     <div id="lembrarsenha">
                         <label>
@@ -32,7 +32,7 @@
                         </label>
                         <p>Lembre de mim</p>
                     </div>
-                    <a id="botao" href="../index.html">Entrar</a>
+                    <a id="botao" onclick="document.getElementById('usuario').value != '' && document.getElementById('senha').value != '' ? window.location.href = '/index.html' : alert('Digite o usuario e email para entrar') ">Entrar</a>
                 </form>
                 <p id="linkfinal">Novo aqui? <span id="azul"><a href="htmls/criarConta.html">Crie sua conta</a></span></p>
             </div>

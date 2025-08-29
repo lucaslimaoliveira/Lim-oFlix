@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Cartapio filmes/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <title>LimãoFlix</title>
 </head>
@@ -16,19 +16,18 @@
         <div id="conta">
             <a href="Pagina de login/login.html">Conta</a>
         </div>
-        <div id="sobre">
-            <a href="Cartapio filmes/Htmls/sobre.html">Sobre</a>
-        </div>
     </header>
     <main>
         <aside>
             <div>
-                <a class="link" href="Cartapio filmes/Htmls/Star_Wars.html">
-                    <div class="filmeslados">
-                        <img width="50px" src="Cartapio filmes/imagens/Star Wars - EpisódioV.png" alt="">
-                        <p>Star Wars: Episódio V - O Império Contra-Ataca</p>
-                    </div>
-                </a>
+                <div>
+                    <a class="link" href="Cartapio filmes/Htmls/Star_Wars.html">
+                        <div class="filmeslados">
+                            <img width="50px" src="Cartapio filmes/imagens/Star Wars - EpisódioV.png" alt="">
+                            <p>Star Wars: Episódio V - O Império Contra-Ataca</p>
+                        </div>
+                    </a>
+                </div>
                 <a class="link" href="Cartapio filmes/Htmls/Matrix.html">
                     <div class="filmeslados">
                         <img width="50px" src="Cartapio filmes/imagens/matrix.png" alt="">
@@ -87,122 +86,58 @@
             <div id="hr"></div>
             <img id="filmes" width="40px" height="300px" src="Cartapio filmes/imagens/Filmes e séries.png" alt="">
         </aside>
-        <table>
-            <tr>
-                <th colspan="5" id="principal">Catálogo de filmes e séries</tr>
-            </tr>
-            <tr>
-                <th style="color: #25fa11;" colspan="5">Mais vistos</th>
-            </tr>
-            <tr>
-                <td>
-                    <selection class="selecao">
-                        <abbr title="Star Wars: Episódio V - O Império Contra-Ataca"><img class="imagemFilme" src="Cartapio filmes/imagens/Star Wars - EpisódioV.png" alt=""></abbr>
-                        <div class="informacao">
-                            <p class="titulo">Star Wars: Episódio V - O Império Contra-Ataca</p>
-                            <p style="margin-bottom: 30px;">Ano: 1980</p>
-                            <a class="saibamais" href="Cartapio filmes/Htmls/Star_Wars.html">Saiba mais</a>
-                        </div>
-                    </selection>
-                </td>
-                <td>
-                    <selection class="selecao">
-                        <abbr title="Matrix"><img class="imagemFilme" src="Cartapio filmes/imagens/matrix.png" alt=""></abbr>
-                        <div class="informacao">
-                            <p class="titulo">Matrix</p>
-                            <p style="margin-bottom: 112px;">Ano: 1999</p>
-                            <a class="saibamais" href="Cartapio filmes/Htmls/Matrix.html">Saiba mais</a>
-                        </div>
-                    </selection>
-                </td>
-                <td>
-                    <selection class="selecao">
-                        <abbr title="O Senhor dos Anéis: O Retorno do Rei"><img class="imagemFilme" src="Cartapio filmes/imagens/Senhor dos aneis.png" alt=""></abbr>
-                        <div class="informacao">
-                            <p class="titulo">O Senhor dos Anéis: O Retorno do Rei</p>
-                            <p style="margin-bottom: 50px;">Ano: 2003</p>
-                            <a class="saibamais" href="Cartapio filmes/Htmls/Senhor_dos_Aneis.html">Saiba mais</a>
-                        </div>
-                    </selection>
-                </td>
-                <td>
-                    <selection class="selecao">
-                        <abbr title="Batman: O Cavaleiro das Trevas"><img class="imagemFilme" src="Cartapio filmes/imagens/Batman o caveleiro das trevas.png" alt=""></abbr>
-                        <div class="informacao">
-                            <p class="titulo">Batman: O Cavaleiro das Trevas</p>
-                            <p style="margin-bottom: 70px;">Ano: 2008</p>
-                            <a class="saibamais" href="Cartapio filmes/Htmls/batmam.html">Saiba mais</a>
-                        </div>
-                    </selection>
-                </td>
-                <td>
-                    <selection class="selecao">
-                        <abbr title="Um Sonho de Liberdade"><img class="imagemFilme" src="Cartapio filmes/imagens/um sonho de liberdade.png" alt=""></abbr>
-                        <div class="informacao">
-                            <p class="titulo">Um Sonho de Liberdade</p>
-                            <p style="margin-bottom: 90px;">Ano: 1994</p>
-                            <a class="saibamais" href="Cartapio filmes/Htmls/um_sonho_de_liberdade.html">Saiba mais</a>
-                        </div>
-                    </selection>
-                </td>
-            </tr>
-            <tr>
-                <th style="color: #25fa11;" colspan="5">Recomendados</th>
-            </tr>
-            <tr>
-                <td>
-                    <selection class="selecao">
-                        <abbr title="Pokémon: Detetive Pikachu"><img class="imagemFilme" src="Cartapio filmes/imagens/detetive_pikachu.png" alt=""></abbr>
-                        <div class="informacao">
-                            <p class="titulo">Pokémon: Detetive Pikachu</p>
-                            <p style="margin-bottom: 70px;">Ano: 2019</p>
-                            <a class="saibamais" href="Cartapio filmes/Htmls/pokemon_detetive_pikachu.html">Saiba mais</a>
-                        </div>
-                    </selection>
-                </td>
-                <td>
-                    <selection class="selecao">
-                        <abbr title="Um Filme Minecraft"><img class="imagemFilme" src="Cartapio filmes/imagens/minecraft.png" alt=""></abbr>
-                        <div class="informacao">
-                            <p class="titulo">Um Filme Minecraft</p>
-                            <p style="margin-bottom: 91px;">Ano: 2025</p>
-                            <a class="saibamais" href="Cartapio filmes/Htmls/minecraft.html">Saiba mais</a>
-                        </div>
-                    </selection>
-                </td>
-                <td>
-                    <selection class="selecao">
-                        <abbr translate="no" title="One Piece"><img class="imagemFilme" src="Cartapio filmes/imagens/one piece.png" alt=""></abbr>
-                        <div class="informacao">
-                            <p class="titulo" translate="no">One Piece</p>
-                            <p style="margin-bottom: 112px;">Ano: 1999</p>
-                            <a class="saibamais" href="Cartapio filmes/Htmls/One_piece.html">Saiba mais</a>
-                        </div>
-                    </selection>
-                </td>
-                <td>
-                    <selection class="selecao">
-                        <abbr title="Super Mario Bros"><img class="imagemFilme" src="Cartapio filmes/imagens/mario Bros.png" alt=""></abbr>
-                        <div class="informacao">
-                            <p class="titulo">Super Mario Bros</p>
-                            <p style="margin-bottom: 88px;">Ano: 2023</p>
-                            <a class="saibamais" href="Cartapio filmes/Htmls/super_mario.html">Saiba mais</a>
-                        </div>
-                    </selection>
-                </td>
-                <td>
-                    <selection class="selecao">
-                        <abbr title="Interestelar"><img class="imagemFilme" src="Cartapio filmes/imagens/interstellar.png" alt=""></abbr>
-                        <div class="informacao">
-                            <p class="titulo">Interestelar
-                            </p>
-                            <p style="margin-bottom: 110px;">Ano: 2014</p>
-                            <a class="saibamais" href="Cartapio filmes/Htmls/interestelar.html">Saiba mais</a>
-                        </div>
-                    </selection>
-                </td>
-            </tr>
-        </table>
+        <div id="container">
+                <a href="Cartapio filmes/Htmls/Star_Wars.html">
+                    <div class="filmes">
+                        <img class="filmeImg" src="Cartapio filmes/imagens/Star Wars - EpisódioV.png" alt="">
+                    </div>
+                </a>
+                <a href="Cartapio filmes/Htmls/Matrix.html">
+                    <div class="filmes">
+                        <img class="filmeImg" src="Cartapio filmes/imagens/matrix.png" alt="">
+                    </div>
+                </a>
+                <a href="Cartapio filmes/Htmls/Senhor_dos_Aneis.html">
+                    <div class="filmes">
+                        <img class="filmeImg" src="Cartapio filmes/imagens/Senhor dos aneis.png" alt="">
+                    </div>
+                </a>
+                <a href="Cartapio filmes/Htmls/batmam.html">
+                    <div class="filmes">
+                        <img class="filmeImg" src="Cartapio filmes/imagens/Batman o caveleiro das trevas.png" alt="">
+                    </div>
+                </a>
+                <a href="Cartapio filmes/Htmls/um_sonho_de_liberdade.html">
+                    <div class="filmes">
+                        <img class="filmeImg" src="Cartapio filmes/imagens/um sonho de liberdade.png" alt="">
+                    </div>
+                </a>
+                <a href="Cartapio filmes/Htmls/pokemon_detetive_pikachu.html">
+                    <div class="filmes">
+                        <img class="filmeImg" src="Cartapio filmes/imagens/detetive_pikachu.png" alt="">
+                    </div>
+                </a>
+                <a href="Cartapio filmes/Htmls/minecraft.html">
+                    <div class="filmes">
+                        <img class="filmeImg" src="Cartapio filmes/imagens/minecraft.png" alt="">
+                    </div>
+                </a>
+                <a href="Cartapio filmes/Htmls/One_piece.html">
+                    <div class="filmes">
+                        <img class="filmeImg" src="Cartapio filmes/imagens/one piece.png" alt="">
+                    </div>
+                </a>
+                <a href="Cartapio filmes/Htmls/super_mario.html">
+                    <div class="filmes">
+                        <img class="filmeImg" src="Cartapio filmes/imagens/mario Bros.png" alt="">
+                    </div>
+                </a>
+                <a href="Cartapio filmes/Htmls/interestelar.html">
+                    <div class="filmes">
+                        <img class="filmeImg" src="Cartapio filmes/imagens/interstellar.png" alt="">
+                    </div>
+                </a>
+        </div>
     </main>
     <footer>
         <div id="final">

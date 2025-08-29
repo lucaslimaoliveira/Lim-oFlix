@@ -1,0 +1,148 @@
+body {
+    background-color: #2e3323;
+    margin: 0;
+    top: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #16e094;
+    padding: 10px;
+    margin-bottom: -10px;
+    text-align: center;
+    font-size: 30px;
+    border: solid 2px black;
+    height: 120px;
+}
+#cabeca {
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+    justify-content: space-around;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+footer {
+    align-items: center;
+    width: 1000px;
+    margin: 60px auto 0 auto;
+    text-align: center;
+}
+#final {
+    display: flex;
+    margin: auto 0;
+    justify-content: space-around;
+    width: 1000px;
+    margin-top: 60px;
+}
+.textofinal {
+    background-color: #16E094;
+    padding: 10px 50px 10px 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 20px black;
+    color: white;
+}
+form {
+    margin-top: -15px;
+}
+#direitos {
+    color: #25fa11;
+}
+button,input {
+    border-radius: 10px;
+}
+a {
+    color: #0727F5;
+}
+aside {
+    background-color: #16E094;
+    height: 950px;
+    top: 142px;
+    position: absolute;
+    width: 550px;
+    border: solid 2px black;
+    display: flex;
+    transform: translateX(-491px);
+    transition: transform 1s ease;
+}
+aside:hover {
+    transform: translateX(0);
+    transition: 1s ease;
+}
+#filmes {
+    margin-top: 350px;
+    margin-left: 8px;
+}
+.filmeslados {
+    display: flex;
+    margin-top: 16px;
+    margin-left: 20px;
+    p {
+        margin: 30px 0 0 10px;
+        font-weight: bold;
+    }
+    img {
+        border-radius: 10px;
+        border: solid black 2px;
+    }
+}
+.filmeslados:hover {
+    background-color: #0fec97;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    img {
+        box-shadow: 5px 5px 10px white;
+    }
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+#hr {
+    background-color: black;
+    width: 1px;
+    margin-left: 70px;
+}
+#conta {
+    position: absolute;
+    right: 30px;
+    top: 45px;
+    padding: 10px;
+    background-color: #16e0d9;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+#conta:hover {
+    background-color: #15b8b2;
+}
+#conta:hover > a {
+    color: rgb(224, 214, 214);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#git {
+    text-decoration: underline;
+}
+
+#container {
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 90%;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(5, 1fr);
+}
+.filmes {
+    width: 220px;
+}
+.filmeImg {
+    width: 220px;
+    border-radius: 15px;
+} 
